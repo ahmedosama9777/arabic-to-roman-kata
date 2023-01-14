@@ -17,3 +17,6 @@ class TestArabicRomanConverter(TestCase):
     
     def test_number_five(self):
         self.assertEqual(self.converter.convert(5), "V")
+    
+    def test_number_ten(self):
+        self.assertEqual(self.converter.convert(10), "X")
